@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug .logo {
+    border: 2px dashed black;
+}
+
+.debug .login {
+    border: 2px dashed black;
+}
+
+.debug .nav-content {
+    border: 2px dashed black;
+}
+
+
+header {
+    background-color: #ADD8E6;
+
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    min-height: 60px;
+    justify-content: space-around;
+}
+
+.logo {
+    background-color: #DAA520;
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.nav-content {
+    background-color: #DAA520;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    background-color: #DAA520;
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.mrgelement {
+    padding: 6px 8px;
+}

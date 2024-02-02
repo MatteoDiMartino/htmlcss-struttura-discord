@@ -1,0 +1,15 @@
+palette struttura base discord
+
+header 
+
+celeste: #ADD8E6;
+
+giallo: #DAA520 ;
+
+nero: #ffffff;
+
+blu: #00008B;
+
+rosa: #00008B;
+
+celestino border-bottom: #ADD8E6;
