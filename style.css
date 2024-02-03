@@ -46,9 +46,21 @@
     border: 2px dashed black;
 }
 
+.debug .box1 {
+    border: 2px dashed black;
+}
 
+.debug .boxgeneral {
+    border: 2px dashed white;
+}
 
+.debug .allboxes {
+    border: 2px dashed white;
+}
 
+.debug .lowpageelement {
+    border: 2px dashed black;
+}
 /*--------------------
       HEAD
 --------------------*/
@@ -108,15 +120,6 @@
       SECTION
 --------------------*/
 
-/* .container2 {
-    display: flex;
-    
-    align-items: center;
-    min-height: 60px;
-    justify-content: space-around;
-    background-color: white;
-} */
-
 .container2 {
     background-color: #ffffff;
     display: flex;
@@ -158,4 +161,84 @@
     display: flex;
     width: 60%;
     background-color: #FFC0CB;
+}
+
+.greenbox {
+    display: flex;
+    width: 100%;
+    background-color: #228B22;
+    max-width: 1180px;
+    min-height: 900px;
+}
+
+.lowwalpaperbox {
+    
+    background-color: #D3D3D3;
+    display: flex;
+    padding: 50px;
+    /* border-bottom: 3px solid #ADD8E6 ; */
+}
+
+.lowpage {
+    background-color: #23272A;
+    justify-content: center;
+    padding: 10px 0px 45px 0px;
+    border-bottom: 3px solid white;
+}
+
+.allboxes {
+    display: flex;
+    min-height: 600px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: flex;
+    background-color: #F08080;
+    width: 30%;
+    /* max-width: 1180px;
+    min-height: 900px; */
+}
+
+.boxgeneral {
+    display: flex;
+    width: 17.5%;
+    background-color: #20B2AA;
+}
+
+.endpage {
+    display: flex;
+    background-color: #23272A;
+    min-height: 100px;
+
+   
+}
+
+.lowboxinside {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    width: 100%;
+    background-color: #7FFFD4;
+    margin-top: 30px;
+    min-height: 80px;
+
+}
+
+.lowpageelement {
+    display: flex;
+    background-color: #FFB6C1;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 70px;
+    flex-wrap: wrap;
+}
+
+.boxelement {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
 }
