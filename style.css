@@ -61,6 +61,12 @@
 .debug .lowpageelement {
     border: 2px dashed black;
 }
+
+.debug .greenbox {
+    border: 2px dashed black;
+}
+
+
 /*--------------------
       HEAD
 --------------------*/
