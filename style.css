@@ -14,44 +14,55 @@
 
 .debug .logo {
     border: 2px dashed black;
+    background-color: #DAA520;
 }
 
 .debug .login {
     border: 2px dashed black;
+    background-color: #DAA520;
+
 }
 
 .debug .nav-content {
     border: 2px dashed black;
+    background-color: #DAA520;
 }
 
 .debug .pinkbox {
     border: 2px dashed black;
+    background-color: #EE82EE;
 }
 
 
 .debug .col-2 {
     border: 2px dashed black;
+    background-color: #1E90FF;
 }
 
 .debug .col-3 {
     border: 2px dashed black;
+    background-color: #FFC0CB;
 }
 
 
 .debug .col-60 {
     border: 2px dashed black;
+    background-color: #1E90FF;
 }
 
 .debug .col-40 {
     border: 2px dashed black;
+    background-color: #FFC0CB;
 }
 
 .debug .box1 {
     border: 2px dashed black;
+    background-color: #F08080;
 }
 
 .debug .boxgeneral {
     border: 2px dashed white;
+    background-color: #20B2AA;
 }
 
 .debug .allboxes {
@@ -60,10 +71,26 @@
 
 .debug .lowpageelement {
     border: 2px dashed black;
+    background-color: #FFB6C1;
 }
 
 .debug .greenbox {
     border: 2px dashed black;
+    background-color: #228B22;
+}
+.debug .downhead {
+    border: 2px dashed black;
+    background-color: #00008B;
+    border-bottom: 3px solid #ADD8E6 ;
+}
+
+.debug .lowboxinside {
+    border: 2px dashed black;
+    background-color: #7FFFD4;
+}
+
+.debug .bghead {
+    background-color: #ADD8E6;
 }
 
 
@@ -71,9 +98,9 @@
       HEAD
 --------------------*/
 
-.bghead {
-    background-color: #ADD8E6;
-}
+/* .bghead {
+
+} */
 
 .container {
     display: flex;
@@ -84,21 +111,38 @@
 }
 
 .logo {
-    background-color: #DAA520;
+
     width: 25%;
     justify-content: flex-start;
 }
 
 .nav-content {
-    background-color: #DAA520;
-    width: 50%;
     display: flex;
+    width: 50%;
     justify-content: center;
+    padding: 6px 8px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.main-nav li {
+    padding: 0 4px;
+}
+.main-nav li a {
+    text-decoration: none;
 }
 
 .login {
     display: flex;
-    background-color: #DAA520;
     width: 25%;
     justify-content: flex-end;
 }
@@ -111,15 +155,15 @@
     display: flex;
     width: 700px;
     height: 300px;
-    background-color: #EE82EE;
+
 }
 
 .downhead {
-    background-color: #00008B;
+
     display: flex;
     min-height: 100px;
     padding: 40px;
-    border-bottom: 3px solid #ADD8E6 ;
+
 }
 
 /*--------------------
@@ -137,12 +181,12 @@
 .col-60 {
     display: flex;
     width: 60%;
-    background-color: #1E90FF;
+
 }
 .col-40 {
     display: flex;
     width: 40%;
-    background-color: #FFC0CB;
+
 }
 
 .container3 {
@@ -153,6 +197,10 @@
     margin: 0 auto;
 }
 
+/*--------------------
+      GENERAL
+--------------------*/
+
 .bgc3 {
     background-color: #D3D3D3;;
 }
@@ -161,28 +209,26 @@
 .col-2 {
     display: flex;
     width: 40%;
-    background-color: #1E90FF;
+    
 }
 .col-3 {
     display: flex;
     width: 60%;
-    background-color: #FFC0CB;
+    
 }
 
 .greenbox {
     display: flex;
     width: 100%;
-    background-color: #228B22;
+
     max-width: 1180px;
     min-height: 900px;
 }
 
 .lowwalpaperbox {
-    
     background-color: #D3D3D3;
     display: flex;
     padding: 50px;
-    /* border-bottom: 3px solid #ADD8E6 ; */
 }
 
 .lowpage {
@@ -201,7 +247,7 @@
 
 .box1 {
     display: flex;
-    background-color: #F08080;
+
     width: 30%;
     /* max-width: 1180px;
     min-height: 900px; */
@@ -210,7 +256,7 @@
 .boxgeneral {
     display: flex;
     width: 17.5%;
-    background-color: #20B2AA;
+
 }
 
 .endpage {
@@ -226,7 +272,7 @@
     justify-content: space-between;
     max-width: 1180px;
     width: 100%;
-    background-color: #7FFFD4;
+
     margin-top: 30px;
     min-height: 80px;
 
@@ -234,7 +280,7 @@
 
 .lowpageelement {
     display: flex;
-    background-color: #FFB6C1;
+
     align-items: center;
     justify-content: center;
     height: 40px;
